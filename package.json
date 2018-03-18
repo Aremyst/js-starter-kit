@@ -4,6 +4,7 @@
   "description": "js-starter-kit",
   "main": "index.js",
   "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/Aremyst/js-starter-kit#readme",
   "devDependencies": {
+    "chalk": "^2.3.2",
     "express": "4.14.0",
     "open": "0.0.5"
   }
